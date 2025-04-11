@@ -11,7 +11,7 @@ A basic Python project to animate and compare popular sorting algorithms in real
 
 1. Clone the repository:
    ```bash
-   [git clone https://github.com/your_username/sorting-algorithm-viz.git](https://github.com/dmxsan/sorting-algorithm-viz.git)
+   git clone https://github.com/dmxsan/sorting-algorithm-viz.git
    cd sorting-algorithm-viz
 
 2. (Optional) Create and activate a virtual environment
