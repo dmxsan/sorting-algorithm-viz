@@ -1,7 +1,7 @@
 # main.py
 
 import numpy as np
-from algorithm.bubble_sort import bubble_sort
+from algorithms.bubble_sort import bubble_sort
 from visualization.visualizer import Visualizer
 
 
