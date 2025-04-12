@@ -24,7 +24,7 @@ A basic Python project to animate and compare popular sorting algorithms in real
 
 4. Install dependencies
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirement.txt
   
 6. Running the project
    ```bash
