@@ -1,5 +1,7 @@
-import matplotlib.pyplot as plt
+# main.py
+
 import numpy as np
+from algorithm.bubble_sort import bubble_sort
 from visualization.visualizer import Visualizer
 
 
@@ -12,10 +14,13 @@ def main():
     # Generate initial data
     data = generate_random_data(50)
 
-    # Create a Visualizer instance
-    viz = Visualizer(data)
+    # Get the bubble sort generator
+    sort_gen = bubble_sort(data)
 
-    # Start the visualization (this will launch the animated window)
+    # Create a Visualizer instance with the data and sorting generator
+    viz = Visualizer(data, sort_gen)
+
+    # Start the visualization
     viz.animate()
 
 
