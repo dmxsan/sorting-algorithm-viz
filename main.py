@@ -1,7 +1,7 @@
 # main.py
 
 import numpy as np
-from algorithms.bubble_sort import bubble_sort
+from algorithms.insertion_sort import insertion_sort
 from visualization.visualizer import Visualizer
 
 
@@ -15,7 +15,7 @@ def main():
     data = generate_random_data(50)
 
     # Get the bubble sort generator
-    sort_gen = bubble_sort(data)
+    sort_gen = insertion_sort(data)
 
     # Create a Visualizer instance with the data and sorting generator
     viz = Visualizer(data, sort_gen)
