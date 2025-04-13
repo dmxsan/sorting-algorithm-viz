@@ -39,9 +39,12 @@ A basic Python project to animate and compare popular sorting algorithms in real
     ├── algorithms/
     │   ├── __init__.py
     │   └── bubble_sort.py
+    │   └── insertion_sort.py
     └── visualization/
         ├── __init__.py
         └── visualizer.py
+        └── combined_visualization.py
+   
 
 ## Next Steps
 This is a basic setup. Future additions will include more sorting algorithms and enhanced visualizations.
