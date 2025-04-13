@@ -38,11 +38,11 @@ A basic Python project to animate and compare popular sorting algorithms in real
     ├── main.py
     ├── algorithms/
     │   ├── __init__.py
-    │   └── bubble_sort.py
+    │   ├── bubble_sort.py
     │   └── insertion_sort.py
     └── visualization/
         ├── __init__.py
-        └── visualizer.py
+        ├── visualizer.py
         └── combined_visualization.py
    
 
