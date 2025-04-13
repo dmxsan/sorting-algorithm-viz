@@ -61,7 +61,7 @@ class CombinedVisualizer:
         # Return updated bars
         return self.bars1 + self.bars2
 
-    def animate(self, interval=100, frames=200): # Default parameter value
+    def animate(self, interval=100, frames=1000): # Default parameter value
         self.anim = animation.FuncAnimation(
             self.fig,
             self.update,
