@@ -23,7 +23,7 @@ def main():
 
     # Create and run the combined visualizer
     viz = CombinedVisualizer(data, bubble_gen, data, insertion_gen)
-    anim = viz.animate(interval=100, frames=1000)
+    anim = viz.animate(interval=100, frames=1500)
 
     # Keep the animation in scope until after plt.show()
     plt.show()
